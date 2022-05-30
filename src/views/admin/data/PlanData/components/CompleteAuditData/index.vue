@@ -46,7 +46,9 @@ export default {
   data() {
     return {
       planId: null,
-      buttonLoading: false
+      buttonLoading: false,
+      completeData: [],
+      auditData: []
     };
   },
   async mounted() {
@@ -73,10 +75,10 @@ async function getPlanCompleteData(params) {
   const that = this;
   // 获取信息
   const response = await getPlanCompleteDataApi(params);
+  // 格式化信息
+  that.completeData = [];
   // 判断响应
   if (response.code === 0) {
-    // 格式化信息
-    that.completeData = [];
     that.completeData.push({
       name: '已完成',
       value: response.data.completed || 0
@@ -100,10 +102,10 @@ async function getPlanAuditData(params) {
   const that = this;
   // 获取信息
   const response = await getPlanAuditDataApi(params);
+  // 格式化信息
+  that.auditData = [];
   // 判断响应
   if (response.code === 0) {
-    // 格式化信息
-    that.auditData = [];
     that.auditData.push({
       name: SUBMIT_STATUS.APPROVED,
       value: response.data.approveCount || 0
