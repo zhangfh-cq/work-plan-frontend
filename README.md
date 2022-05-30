@@ -1,6 +1,6 @@
 #### 说明
 
-该项目是工作计划管理系统前端，基于Vue.js + Vuex + VueRouter + ElementUI。
+该项目是工作计划管理系统前端，基于Vue.js + Vuex + VueRouter + ElementUI + SCSS。
 
 管理后台模板来自：[vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)，站点图标来自：[Iconfont](https://www.iconfont.cn/search/index?searchType=icon&q=%E5%B7%A5%E4%BD%9C%E8%AE%A1%E5%88%92&page=1&tag=complex)。
 
