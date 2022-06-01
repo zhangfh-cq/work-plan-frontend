@@ -10,6 +10,14 @@ Gitee：[work-plan-backend](https://gitee.com/youyouzhang/work-plan-backend)
 
 Github：[work-plan-backend](https://github.com/zhangfh-cq/work-plan-backend)
 
+#### 预览
+
+![用户管理](https://cdn.jsdelivr.net/gh/zhangfh-cq/images@master/second-blog/17-1.png)
+
+![发布公告](https://cdn.jsdelivr.net/gh/zhangfh-cq/images@master/second-blog/17-2.png)
+
+![数据可视化](https://cdn.jsdelivr.net/gh/zhangfh-cq/images@master/second-blog/17-3.png)
+
 #### 运行
 
 打开项目“src/config/config.js”文件，修改“BASE_URL”的值为对应的后端API地址，
